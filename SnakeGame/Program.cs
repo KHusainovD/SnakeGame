@@ -1,14 +1,14 @@
 ﻿using SnakeGame;
 using static System.Console;
 
-const int MapWidth = 30;
-const int MapHeight = 20;
+const int MapWidth = 24;
+const int MapHeight = 16;
 const int ScreenWidth = MapWidth * 3;
 const int ScreenHeight = MapHeight * 3; 
 const ConsoleColor BorderColor = ConsoleColor.Gray;
 
-//SetWindowSize(ScreenWidth, ScreenHeight);
-// SetBufferSize(ScreenWidth, ScreenHeight);
+SetWindowSize(ScreenWidth, ScreenHeight);
+SetBufferSize(ScreenWidth, ScreenHeight);
 CursorVisible = false;
 
 DrawBorder();

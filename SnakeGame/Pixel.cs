@@ -22,7 +22,7 @@ public readonly struct Pixel
         {
             for (int y = 0; y < PixelSize; y++)
             {
-                Console.SetCursorPosition(X * x + PixelSize, Y * y + PixelSize);
+                Console.SetCursorPosition(X * PixelSize + x, Y * PixelSize + y);
                 Console.Write(PixelChar);
             }
         }
