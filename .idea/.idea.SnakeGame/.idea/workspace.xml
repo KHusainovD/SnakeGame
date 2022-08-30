@@ -4,14 +4,23 @@
     <projectFile>SnakeGame/SnakeGame.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="537cfd5a-4407-4691-a900-ce9cfa3b9035" name="Changes" comment="project initial">
-      <change afterPath="$PROJECT_DIR$/SnakeGame/Pixel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnakeGame/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/Program.cs" afterDir="false" />
+    <list default="true" id="537cfd5a-4407-4691-a900-ce9cfa3b9035" name="Changes" comment="add Snake model">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SnakeGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnakeGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnakeGame/Snake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/Snake.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/dinislamkhusainov/Documents/projects/games/SnakeGame/SnakeGame/Pixel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dinislamkhusainov/Documents/projects/games/SnakeGame/SnakeGame/Pixel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dinislamkhusainov/Documents/projects/games/SnakeGame/SnakeGame/Pixel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dinislamkhusainov/Documents/projects/games/SnakeGame/SnakeGame/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dinislamkhusainov/Documents/projects/games/SnakeGame/SnakeGame/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dinislamkhusainov/Documents/projects/games/SnakeGame/SnakeGame/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b078449f3ad8d279b389a9e32dfc122e4bad14b7dfdfcd6d77c58b5fddf2b68/ConsolePal.Unix.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -22,14 +31,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="SnakeGame" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/SnakeGame/bin/Debug/net6.0/SnakeGame" />
@@ -67,7 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661274968764</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="small fix">
+      <created>1661882694923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661882694923</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add Snake model">
+      <created>1661882706775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661882706775</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +112,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="project initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="project initial" />
+    <MESSAGE value="small fix" />
+    <MESSAGE value="add Snake model" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Snake model" />
   </component>
 </project>
