@@ -7,8 +7,8 @@ const int ScreenWidth = MapWidth * 3;
 const int ScreenHeight = MapHeight * 3; 
 const ConsoleColor BorderColor = ConsoleColor.Gray;
 
-SetWindowSize(ScreenWidth, ScreenHeight);
-SetBufferSize(ScreenWidth, ScreenHeight);
+// SetWindowSize(ScreenWidth, ScreenHeight);
+// SetBufferSize(ScreenWidth, ScreenHeight);
 CursorVisible = false;
 
 DrawBorder();
