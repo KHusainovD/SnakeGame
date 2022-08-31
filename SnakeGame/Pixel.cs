@@ -3,26 +3,25 @@ namespace SnakeGame;
 public readonly struct Pixel
 {
     private const char PixelChar = '█';
-    public Pixel(int x, int y, ConsoleColor color, int pixelSize = 3)
+    public Pixel(int x, int y, ConsoleColor color)
     {
         X = x;
         Y = y;
         Color = color;
-        PixelSize = pixelSize;
     }
 
     public int X { get; }
     public int Y { get; }
     public ConsoleColor Color { get; }
-    public int PixelSize { get; }
 
     public void Draw()
     {
-        for (int x = 0; x < PixelSize; x++)
+        Console.ForegroundColor = Color;
+        for (int x = 0; x < GlobalStorage.PixelSize; x++)
         {
-            for (int y = 0; y < PixelSize; y++)
+            for (int y = 0; y < GlobalStorage.PixelSize; y++)
             {
-                Console.SetCursorPosition(X * PixelSize + x, Y * PixelSize + y);
+                Console.SetCursorPosition(X * GlobalStorage.PixelSize + x, Y * GlobalStorage.PixelSize + y);
                 Console.Write(PixelChar);
             }
         }
@@ -30,11 +29,11 @@ public readonly struct Pixel
 
     public void Clear()
     {
-        for (int x = 0; x < PixelSize; x++)
+        for (int x = 0; x < GlobalStorage.PixelSize; x++)
         {
-            for (int y = 0; y < PixelSize; y++)
+            for (int y = 0; y < GlobalStorage.PixelSize; y++)
             {
-                Console.SetCursorPosition(X * PixelSize + x, Y * PixelSize + y);
+                Console.SetCursorPosition(X * GlobalStorage.PixelSize + x, Y * GlobalStorage.PixelSize + y);
                 Console.Write(' ');
             }
         }

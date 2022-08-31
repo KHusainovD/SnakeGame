@@ -6,12 +6,22 @@ const int MapHeight = 16;
 const int ScreenWidth = MapWidth * 3;
 const int ScreenHeight = MapHeight * 3; 
 const ConsoleColor BorderColor = ConsoleColor.Gray;
+const ConsoleColor HeadColor = ConsoleColor.Blue;
+const ConsoleColor BodyColor = ConsoleColor.Cyan;
+
 
 // SetWindowSize(ScreenWidth, ScreenHeight);
 // SetBufferSize(ScreenWidth, ScreenHeight);
 CursorVisible = false;
 
 DrawBorder();
+var snake = new Snake(10, 5, HeadColor, BodyColor);
+for (int i = 0; i < 10; i++)
+{
+    snake.Move(Direction.Right);
+    Thread.Sleep(200);
+}
+
 ReadKey();
 
 static void DrawBorder()
